@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Habib Sall | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="KB RD.jpg" alt="Habib Sall" class="profile-pic" />
+      <h1>Habib Sall</h1>
+      <p>Software Engineer & Multimedia Creative</p>
+    </header>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a Software Engineering student at Limkokwing University, blending
+        technology and creativity. With experience in web development,
+        multimedia, and design, I aim to build solutions that connect
+        functionality with beauty. I am also passionate about dance and
+        modeling, bringing a unique perspective to my creative work.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <img
+            src="{{ url_for('static', filename='../images/project1.jpg') }}"
+            alt="Church Website"
+          />
+          <h3>Church Website</h3>
+          <p>
+            A responsive website for my church, designed and developed using
+            HTML, CSS, and JavaScript.
+          </p>
+        </div>
+        <div class="project">
+          <img
+            src="{{ url_for('static', filename='../images/project2.jpg') }}"
+            alt="SYLREG Enterprise Project"
+          />
+          <h3>SYLREG Enterprise</h3>
+          <p>
+            Multimedia and web development projects for client management and
+            delivery.
+          </p>
+        </div>
+        <div class="project">
+          <img
+            src="{{ url_for('static', filename='../images/project3.jpg') }}"
+            alt="Python & Java Apps"
+          />
+          <h3>Python & Java Apps</h3>
+          <p>
+            Various applications showcasing problem-solving, logic, and
+            programming skills.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <p>
+        <strong>SYLREG Enterprise (Bureau Manager, 2 years):</strong> Worked on
+        multimedia, web development, and customer management.
+      </p>
+      <p>
+        <strong>Limkokwing University:</strong> Hands-on experience in coding,
+        multimedia, and collaborative projects.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill">Python</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">HTML & CSS</div>
+        <div class="skill">Adobe Tools</div>
+        <div class="skill">Microsoft Office</div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Email: yourname@example.com</p>
+      <p>LinkedIn: <a href="#">linkedin.com/in/yourname</a></p>
+      <p>GitHub: <a href="#">github.com/yourusername</a></p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Habib Sall | Portfolio</p>
+    </footer>
+  </body>
+</html>
